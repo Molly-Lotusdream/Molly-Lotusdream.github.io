@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>medium</title>
+		<style type="text/css">
+			@charset 'UTF-8';
+
+body
+{
+    position: static;
+
+    margin: 0;
+}
+
+.m-bk
+{
+    position: absolute;
+
+    width: 1063px;
+    height: 544px;
+
+    opacity: .4;
+    background: url('../img/webview.jpg') center, no-repeat;
+}
+
+.m-menu
+{
+    font-size: 12px;
+    font-weight: bold;
+
+    padding: 15px 64px;
+
+    letter-spacing: 1px;
+
+   color: #6c6c6c;
+    /*background-color: red;*/
+}
+
+.m-menu-item + .m-menu-item
+{
+    margin-left: 17px;
+}
+
+.m-container
+{
+    display: flex;
+}
+
+.m-recomd
+{
+    width: 690px;
+    margin: 23px 33px;
+
+    /*background-color: pink;*/
+}
+
+.m-rank
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 280px;
+    margin: 10px 1px;
+    padding: 45px 12px;
+
+    /*background-color: blue;*/
+}
+
+.m-recomd-text + .m-recomd-text
+{
+    margin-top: 50px;
+}
+
+.m-recomd-item
+{
+    font-size: 13px;
+
+    letter-spacing: .15px;
+    word-spacing: -1.3px;
+
+    color: #6c6c6c;
+}
+
+.m-recomd-title
+{
+    font: ‘Impact’;
+    font-size: 19px;
+    font-weight: bold;
+
+    margin-top: 3px;
+
+    word-spacing: -2.3px;
+
+    color: black;
+}
+
+.m-recomd-content
+{
+    font: Arial;
+    font-size: 13px;
+
+    margin-top: 6px;
+
+    word-spacing: .45px;
+
+    color: #4c4c4c;
+}
+
+.m-recomd-author
+{
+    font-size: 10px;
+
+    margin-top: 17px;
+
+    letter-spacing: .15px;
+    word-spacing: -.75px;
+
+    color: black;
+}
+
+.m-recomd-date,
+.m-rank-date
+{
+    font-size: 8px;
+
+    margin-top: 3.4px;
+    margin-left: 1px;
+
+    word-spacing: .6px;
+
+    color: #4c4c4c;
+}
+
+.m-rank-title
+{
+    font-size: 19px;
+    font-weight: bolder;
+
+    width: 100%;
+    height: 30px;
+
+    word-spacing: -2px;
+
+    color: black;
+    /*background-color: purple;*/
+}
+
+.m-rank-content
+{
+    display: flex;
+
+    /*background-color: greenyellow;*/
+}
+
+.m-rank-number
+{
+    font-size: 24px;
+    font-weight: bolder;
+
+    width: 30px;
+    margin: 45px 2px;
+}
+
+.m-rank-text
+{
+    width: 250px;
+    padding: 47px 11px;
+}
+
+.m-rank-number-item + .m-rank-number-item
+{
+    margin-top: 98px;
+}
+
+.m-rank_two
+{
+    padding: 29px 1px;
+}
+
+.m-rank_three
+{
+    padding-left: 1px;
+}
+
+.m-rank-text_title
+{
+    font-size: 15px;
+    font-weight: bolder;
+
+    word-spacing: -3px;
+
+    color: black;
+}
+
+.m-rank-author
+{
+    font-family: 'Times new Roman';
+    font-size: 14px;
+
+    margin: 6.7px 1.4px;
+}
+
+.m-rank-date
+{
+    margin: -3px 2px;
+}
+
+		</style>
+	</head>
+	<body>
+		<div class="m-bk"></div>
+		<div class="m-menu">
+			<span class="m-menu-item">HOME</span>
+			<span class="m-menu-item">ONEZERO</span>
+			<span class="m-menu-item">ELEMENTAL</span>
+			<span class="m-menu-item">GEN</span>
+			<span class="m-menu-item">ZORA</span>
+			<span class="m-menu-item">FORGE</span>
+			<span class="m-menu-item">HUMAN PARTS</span>
+			<span class="m-menu-item">MARKER</span>
+			<span class="m-menu-item">LEVEL</span>
+			<span class="m-menu-item">HEATED</span>
+			<span class="m-menu-item">DESIGN</span>
+			<span class="m-menu-item">MC</span>
+		</div>
+		<div class="m-container">
+			<div class="m-recomd">
+				<div class="m-recomd-text">
+					<p class="m-recomd-item">POPULAR ON MEDIUM</p>
+					<p class="m-recomd-title">Commonly Used Design Patterns in JavaScript</p>
+					<p class="m-recomd-content">A look at the singleton, iterator, and factory patterns</p>
+					<p class="m-recomd-author">John Au-Yeung in Better Programming</p>
+					<p class="m-recomd-date">Feb 24 · 4 min read </p>
+				</div>
+				<div class="m-recomd-text">
+					<p class="m-recomd-item"> BASED  ON  YOUR  READING  HISTORY</p>
+					<p class="m-recomd-title">Why Your App Looks Better in Sketch</p>
+					<p class="m-recomd-content">Exploring rendering differences between Sketch and iOS</p>
+					<p class="m-recomd-author">Nathan Gitter</p>
+					<p class="m-recomd-date">Jan31, 2018 · 6 min read </p>
+				</div>
+				<div class="m-recomd-text">
+					<p class="m-recomd-item">BASED ON YOUR READING HISTORY</p>
+					<p class="m-recomd-title">JavaScript Bundlers,a Comparision</p>
+					<p class="m-recomd-content">How do JavaScript bundlers stack up against each other?</p>
+					<p class="m-recomd-author">AJ Meyghani</p>
+					<p class="m-recomd-date">Oct 28, 2018 · 27 min read </p>
+				</div>
+			</div>
+			<div class="m-rank">
+				<div class="m-rank-title">
+					<p >Popular on Medium</p>
+				</div>
+				<div class="m-rank-content">
+					<div class="m-rank-number">
+						<p class="m-rank-number-item">01</p>
+						<p class="m-rank-number-item">02</p>
+						<p class="m-rank-number-item">03</p>
+					</div>
+					<div class="m-rank-text">
+						<div class="m-rank_one">
+							<p class="m-rank-text_title">How to Distinguish Between a</p>
+							<p class="m-rank-text_title">Public Safety Crisis and  a</p>
+							<p class="m-rank-text_title">Personal Anxiety</p>
+							<p class="m-rank-author">Imani Bashir in Forge</p>
+							<p class="m-rank-date">Mar 3 · 4 min read </p>
+						</div>
+						<div class="m-rank_two">
+							<p class="m-rank-text_title">There's an Epidemic That's a</p>
+							<p class="m-rank-text_title">Bigger Threat Than the </p>
+							<p class="m-rank-text_title">Coronavirus</p>
+							<p class="m-rank-author">Dr. David L.Katz in Heated</p>
+							<p class="m-rank-date">Feb 29 · 8  min  read </p>
+						</div>
+						<div class="m-rank_three">
+							<p class="m-rank-text_title">The Flawed,Twisted Legecy of</p>
+							<p class="m-rank-text_title">Jack Welch</p>
+							<p class="m-rank-author">Rob  Walker in  Marker</p>
+							<p class="m-rank-date">Mar 3 · 4 min read </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

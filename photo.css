@@ -1,0 +1,9 @@
+body {
+margin: 20px 0;
+}
+
+.apng_test,.bmp_test,.gif_test,.jpeg_test,.png_test,.webp_test,.jpg_test {
+    width: 20%;
+    height: 20%;
+    margin:20px 20px;
+}
